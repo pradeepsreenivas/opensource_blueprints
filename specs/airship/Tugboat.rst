@@ -41,9 +41,8 @@ manifests that are necessary to be consumed by Pegleg.
 .. image:: Tugboat.jpg
    :width: 40pt
 
-** Implement the Automation Engine to obtain site information from either 
-  excel spreadsheet, Formation tool or NARAD/PINC **
-   -	The Parser engine (in Fig above) parses the necessary information 
+**Implement the Automation Engine to obtain site information from either excel spreadsheet, Formation tool or NARAD/PINC**
+   -    The Parser engine (in Fig above) parses the necessary information 
            -	Formation tool using APIs
            - 	NARAD/PINC via APIs
            - 	Excel spreadsheet via Python parsers
@@ -52,20 +51,21 @@ manifests that are necessary to be consumed by Pegleg.
    -	Develop and build internal processors such as bare metal, networks, pki,
         host profile etc. for handling information pertained to those specific manifests.
 
-**  Implement a RESTful API service **
+**Implement a RESTful API service**
    -	This RESTful API service would primarily be responsible for allowing the user 
         to view and modify some of the site information before updating the Pegleg manifests.
    -	This service would provide additional flexibility for deployment engineers to 
         modify/view some of the elements before deployment.
 		
-**  Implement a GUI Dashboard client **
+**Implement a GUI Dashboard client**
    -	Provide a simple Django-based dashboard client to display all the attributes/elements relevant to the site manifests
    -	The dashboard would also provide few fields as editable for the user to perform modifications before deployment.
    -	The dashboard would not be providing any authentication/authorization mechanisms
    -	The dashboard client would consume the RESTful interface exposed by the API Service as shown in fig 1.1 below.
    
 .. image:: Tugboat-dashboard-flow.jpg
-   :width: 25pt
+   :align: middle
+   :width: 20pt
  
 *  This blueprint covers the following
    -	Implement an Automation Engine to obtain site information from only excel spreadsheet.
