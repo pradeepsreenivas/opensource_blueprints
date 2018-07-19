@@ -38,6 +38,9 @@ responsible to pull the site information from NARAD/PINC (or fallback to XLS Spe
 whenever unavailable on NARAD/PINC) and automatically populate the site-specific 
 manifests that are necessary to be consumed by Pegleg.
 
+.. image:: Tugboat.jpg
+   :width: 40pt
+
 * Implement the Automation Engine to obtain site information from either 
   excel spreadsheet, Formation tool or NARAD/PINC
    -	The Parser engine (in Fig 1.0 above) parses the necessary information 
