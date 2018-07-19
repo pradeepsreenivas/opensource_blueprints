@@ -65,8 +65,7 @@ manifests that are necessary to be consumed by Pegleg.
    
 .. image:: Tugboat-dashboard-flow.jpg
    :width: 20pt
-   :align: middle
- 
+    
 *  This blueprint covers the following
    -	Implement an Automation Engine to obtain site information from only excel spreadsheet.
    -	Provide a RESTful API service to view and modify (ONLY certain attributes) relevant site information data.
