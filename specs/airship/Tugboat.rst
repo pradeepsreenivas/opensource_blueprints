@@ -64,8 +64,8 @@ manifests that are necessary to be consumed by Pegleg.
    -	The dashboard client would consume the RESTful interface exposed by the API Service as shown in fig 1.1 below.
    
 .. image:: Tugboat-dashboard-flow.jpg
-   :align: middle
    :width: 20pt
+   :align: middle
  
 *  This blueprint covers the following
    -	Implement an Automation Engine to obtain site information from only excel spreadsheet.
