@@ -42,6 +42,7 @@ manifests that are necessary to be consumed by Pegleg.
    :width: 40pt
 
 **Implement the Automation Engine to obtain site information from either excel spreadsheet, Formation tool or NARAD/PINC**
+
    -    The Parser engine (in Fig above) parses the necessary information 
            -	Formation tool using APIs
            - 	NARAD/PINC via APIs
